@@ -67,6 +67,12 @@ npm run dev
 - フォーマット: `npm run format`
 - フォーマットチェック: `npm run format:check`
 
+
+## CI（GitHub Actions）
+- `main` / `develop` への `pull_request` と `push` で CI を実行します。
+- 現時点の必須チェックは `lint` / `typecheck` / `format:check` / `build` です。
+- テストフレームワーク導入後に `npm run test` を CI に追加します。
+
 ## 開発ステータス
 - 現在: **開発基盤セットアップ完了（Issue #2）**
 - 未確定: 一部の詳細UI、AIプロンプト設計、運用監視粒度
