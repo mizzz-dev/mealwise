@@ -32,7 +32,11 @@ export default function Home() {
 
       <section className="mt-6 space-y-3">
         {features.map((feature) => (
-          <FeatureCard key={feature.title} title={feature.title} description={feature.description} />
+          <FeatureCard
+            key={feature.title}
+            title={feature.title}
+            description={feature.description}
+          />
         ))}
       </section>
     </main>
